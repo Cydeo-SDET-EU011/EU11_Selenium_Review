@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="review project is created">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/week2_live_review_tasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="review project is created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688919099709</updated>
       <workItem from="1688919100983" duration="1942000" />
-      <workItem from="1689195105016" duration="1581000" />
+      <workItem from="1689195105016" duration="1824000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -83,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688920195515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="review project is created">
+      <created>1689196923676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689196923676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
