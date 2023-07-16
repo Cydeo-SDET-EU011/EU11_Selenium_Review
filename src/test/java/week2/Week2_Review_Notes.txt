@@ -1,5 +1,5 @@
 
-06/11/2023
+07/16/2023
 
 Week 2 Review
 
@@ -81,8 +81,8 @@ xpath -> Absolute xpath: /html/body/div/div/div/div/a
                          //tagname[.='textOfWebEleemnt']
 if text has white spaces: //tagname[normalize-space(text())='textOfWebEleemnt'] 
                          You can go to parent to child with using "/"
-                         You can go form child to parent "/.."
-                         You can go sibling to sibling /following-sinling::
+                         You can go from child to parent "/.."
+                         You can go sibling to sibling /following-sibling::
                                                        /preceding-sibling::
                          You can locate element with text of webelement
 
