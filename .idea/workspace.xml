@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="LocatorPractice class added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week2/RegistrationForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week2/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/RegistrationForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +129,7 @@
       <workItem from="1689195105016" duration="1824000" />
       <workItem from="1689197070995" duration="801000" />
       <workItem from="1689442034701" duration="53000" />
-      <workItem from="1689508101457" duration="9286000" />
+      <workItem from="1689508101457" duration="9796000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689516096155</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="LocatorPractice class added">
+      <created>1689518154178</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689518154178</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
