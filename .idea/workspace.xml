@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="RegistrationForm class added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week2/HardSoftAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/week2/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week2/RegistrationForm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,22 +52,8 @@
       <recent name="$PROJECT_DIR$/src/test/java/week2" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationForm.registration_form_filling_test">
-    <configuration name="Day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week1.Day1" />
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LocatorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.LocatorPractice" />
+  <component name="RunManager" selected="TestNG.HardSoftAssertion">
+    <configuration name="HardSoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
@@ -73,12 +61,16 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.HardSoftAssertion" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week2.RegistrationForm" />
+    <configuration name="HardSoftAssertion.login_test_with_hard_assertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
@@ -86,6 +78,30 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.HardSoftAssertion" />
+      <option name="METHOD_NAME" value="login_test_with_hard_assertion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HardSoftAssertion.login_test_with_soft_assertion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week2" />
+      <option name="MAIN_CLASS_NAME" value="week2.HardSoftAssertion" />
+      <option name="METHOD_NAME" value="login_test_with_soft_assertion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HardSoftAssertion" />
+        <item itemvalue="TestNG.HardSoftAssertion.login_test_with_soft_assertion" />
+        <item itemvalue="TestNG.HardSoftAssertion.login_test_with_hard_assertion" />
         <item itemvalue="TestNG.RegistrationForm.registration_form_filling_test" />
         <item itemvalue="TestNG.RegistrationForm.registration_form_test" />
-        <item itemvalue="Application.RegistrationForm" />
-        <item itemvalue="Application.LocatorPractice" />
-        <item itemvalue="Application.Day1" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +164,7 @@
       <workItem from="1689195105016" duration="1824000" />
       <workItem from="1689197070995" duration="801000" />
       <workItem from="1689442034701" duration="53000" />
-      <workItem from="1689508101457" duration="15232000" />
+      <workItem from="1689508101457" duration="16645000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -220,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689527418733</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="RegistrationForm class added">
+      <created>1689528190079</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689528190079</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

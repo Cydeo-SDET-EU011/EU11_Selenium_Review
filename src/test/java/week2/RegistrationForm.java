@@ -160,7 +160,7 @@ public class RegistrationForm {
     @AfterMethod
     public void teardown(){
 
-       // driver.quit();
+        driver.quit();
     }
 
 
