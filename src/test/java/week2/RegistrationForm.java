@@ -134,13 +134,24 @@ public class RegistrationForm {
         selectJob.selectByIndex(4);
 
         // 13. Click to "Java" from languages
-
+        WebElement javaCheck = driver.findElement(By.id("inlineCheckbox2"));
+        Assert.assertTrue(javaCheck.isEnabled());
+        javaCheck.click();
+        Assert.assertTrue(javaCheck.isSelected());
 
 
         // 14. Click to "Sign up" button
+        driver.findElement(By.id("wooden_spoon")).click();
+
+
         // 15. Verify text displayed on page
         //     Expected: "Well done!"
+        WebElement result = driver.findElement(By.cssSelector(".alert-heading"));
 
+        String expectedText = "Well done!";
+        String actualText = result.getText();
+
+        Assert.assertEquals(actualText,expectedText);
 
 
     }
