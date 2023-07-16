@@ -1,9 +1,12 @@
 package week2;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -81,16 +84,16 @@ public class RegistrationForm {
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         // 3. Enter First name: "John"
+       driver.findElement(By.name("firstname")).sendKeys("John");
 
-
-        // 4. Enter Last name: "Smith"
-
+       // 4. Enter Last name: "Smith"
+       driver.findElement(By.xpath("//input[@placeholder='last name']")).sendKeys("Smith");
 
         // 5. Enter Username: "johnsmith123"
-
+        driver.findElement(By.cssSelector("input[name='username']")).sendKeys("johnsmith123");
 
         // 6. Enter Email address: "john.smith@email.com"
-
+        driver.findElement(By.name("email")).sendKeys("john.smith@email.com");
 
         // 7. Enter password: "John1234"
 
@@ -114,6 +117,11 @@ public class RegistrationForm {
     }
 
 
+    @AfterMethod
+    public void teardown(){
+
+        driver.quit();
+    }
 
 
 
