@@ -61,6 +61,7 @@ public class HardSoftAssertion {
 
     }
 
+
     @Test
     public void login_test_with_soft_assertion() {
         WebElement username = driver.findElement(By.name("username"));
