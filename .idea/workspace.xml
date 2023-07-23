@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="review project is created">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week3/LocatorsReview.java" afterDir="false" />
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="locators are reviewed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week3/LocatorsReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/LocatorsReview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688919099709</updated>
       <workItem from="1688919100983" duration="1942000" />
-      <workItem from="1690110465689" duration="5619000" />
+      <workItem from="1690110465689" duration="8200000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -87,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688920195515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="locators are reviewed.">
+      <option name="closed" value="true" />
+      <created>1690117991782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690117991782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="review project is created" />
-    <option name="LAST_COMMIT_MESSAGE" value="review project is created" />
+    <MESSAGE value="locators are reviewed." />
+    <option name="LAST_COMMIT_MESSAGE" value="locators are reviewed." />
   </component>
 </project>

@@ -77,7 +77,41 @@ public class LocatorsReview {
 
 
         //xpath
+        /*
+        we have 2 types of xpath locators
+        1. absolute
+        /html/body/div/div/div
 
+        2. relative
+        //div[@class='container']
+
+        // text() method
+        //a[text()='Autocomplete']    //a[.='Autocomplete']
+
+        // contains() method
+        //li[contains(@class,'list')]
+
+        parent --> child
+        //div[@class='col-sm-8']/h2
+
+
+        child --> parent
+        //h1[@class='h1']/..
+
+        siblings
+        (//li[@class='list-group-item']/following-sibling::li)
+        //li[@class='list-group-item']/preceding-sibling::li
+
+        using index number
+        (//li[@class='list-group-item']/following-sibling::li)[1]
+
+
+        css and xpath differences
+        1. css can't locate using text, but xpath can
+        2. css can't use index directly, but xpath can
+        3. css can't go from child to parent, but xpath can
+
+         */
 
 
 
