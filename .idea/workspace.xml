@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="java faker is added.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="web table is added.">
       <change beforePath="$PROJECT_DIR$/src/test/java/week3/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/Tables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Tables.getNames">
+  <component name="RunManager" selected="TestNG.Tables.check">
     <configuration name="JavaFaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.JavaFaker" />
       <module name="EU11_Selenium_Review" />
@@ -63,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Frames.frameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tables.check" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +71,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.Frames" />
-      <option name="METHOD_NAME" value="frameTest" />
+      <option name="MAIN_CLASS_NAME" value="week3.Tables" />
+      <option name="METHOD_NAME" value="check" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tables.check" />
         <item itemvalue="TestNG.Tables.getNames" />
         <item itemvalue="TestNG.Tables.getName" />
         <item itemvalue="Application.JavaFaker" />
         <item itemvalue="TestNG.WindowsHandle.windowsHandle" />
-        <item itemvalue="TestNG.Frames.frameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688919099709</updated>
       <workItem from="1688919100983" duration="1942000" />
-      <workItem from="1690110465689" duration="14061000" />
+      <workItem from="1690110465689" duration="15181000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -211,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690130136906</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="web table is added.">
+      <option name="closed" value="true" />
+      <created>1690130929751</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690130929751</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +242,7 @@
     <MESSAGE value="frames are added" />
     <MESSAGE value="windows are added" />
     <MESSAGE value="java faker is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="java faker is added." />
+    <MESSAGE value="web table is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="web table is added." />
   </component>
 </project>

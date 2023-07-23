@@ -48,4 +48,16 @@ public class Tables {
     //   //td[.='Alexandra Gray']/following-sibling::td[2]
 
 
+    public void countChecker(String name, int count){
+        WebElement countLocater = driver.findElement(By.xpath("//td[.='" + name + "']/following-sibling::td[2]"));
+        String actualCount = countLocater.getText();
+        Assert.assertEquals(actualCount,String.valueOf(count));
+    }
+
+    @Test
+    public void check(){
+        countChecker("Bart Fisher",3);
+    }
+
+
 }
