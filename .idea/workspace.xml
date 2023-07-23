@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="windows are added">
-      <change beforePath="$PROJECT_DIR$/src/test/java/week3/JavaFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/JavaFaker.java" afterDir="false" />
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="java faker is added.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week3/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/Tables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JavaFaker">
+  <component name="RunManager" selected="TestNG.Tables.getNames">
     <configuration name="JavaFaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week3.JavaFaker" />
       <module name="EU11_Selenium_Review" />
@@ -58,42 +59,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Alerts.confirmationAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.Alerts" />
-      <option name="METHOD_NAME" value="confirmationAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Alerts.promptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.Alerts" />
-      <option name="METHOD_NAME" value="promptAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,6 +74,42 @@
       <option name="PACKAGE_NAME" value="week3" />
       <option name="MAIN_CLASS_NAME" value="week3.Frames" />
       <option name="METHOD_NAME" value="frameTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tables.getName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.Tables" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tables.getNames" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week3" />
+      <option name="MAIN_CLASS_NAME" value="week3.Tables" />
+      <option name="METHOD_NAME" value="getNames" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tables.getNames" />
+        <item itemvalue="TestNG.Tables.getName" />
         <item itemvalue="Application.JavaFaker" />
         <item itemvalue="TestNG.WindowsHandle.windowsHandle" />
         <item itemvalue="TestNG.Frames.frameTest" />
-        <item itemvalue="TestNG.Alerts.promptAlert" />
-        <item itemvalue="TestNG.Alerts.confirmationAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688919099709</updated>
       <workItem from="1688919100983" duration="1942000" />
-      <workItem from="1690110465689" duration="13274000" />
+      <workItem from="1690110465689" duration="14061000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -202,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690129700473</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="java faker is added.">
+      <option name="closed" value="true" />
+      <created>1690130136906</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690130136906</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +234,7 @@
     <MESSAGE value="alerts are added" />
     <MESSAGE value="frames are added" />
     <MESSAGE value="windows are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="windows are added" />
+    <MESSAGE value="java faker is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="java faker is added." />
   </component>
 </project>
