@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="web table is added and developed.">
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="utility package is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/ActionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week3/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week3/Tables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/Tables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week3/WindowsHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week3/WindowsHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/UploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/UploadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,21 +35,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU11_Selenium_Review",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Alerts">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review" />
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ActionsTest.hoverTest">
+    <configuration name="ActionsTest.hoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.ActionsTest" />
+      <option name="METHOD_NAME" value="hoverTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Alerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
@@ -83,35 +109,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tables.check" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UploadTest.uploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.*" />
+          <option name="PATTERN" value="week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.Tables" />
-      <option name="METHOD_NAME" value="check" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tables.getNames" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.Tables" />
-      <option name="METHOD_NAME" value="getNames" />
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.UploadTest" />
+      <option name="METHOD_NAME" value="uploadTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionsTest.hoverTest" />
+        <item itemvalue="TestNG.UploadTest.uploadTest" />
         <item itemvalue="TestNG.Alerts" />
         <item itemvalue="TestNG.Tables" />
         <item itemvalue="TestNG.WindowsHandle" />
-        <item itemvalue="TestNG.Tables.check" />
-        <item itemvalue="TestNG.Tables.getNames" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +165,7 @@
       <workItem from="1688919100983" duration="1942000" />
       <workItem from="1690110465689" duration="16273000" />
       <workItem from="1690694687363" duration="498000" />
-      <workItem from="1690713406587" duration="3886000" />
+      <workItem from="1690713406587" duration="5149000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -230,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690132229536</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="utility package is added.">
+      <created>1690719885040</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690719885040</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +271,7 @@
     <MESSAGE value="java faker is added." />
     <MESSAGE value="web table is added." />
     <MESSAGE value="web table is added and developed." />
-    <option name="LAST_COMMIT_MESSAGE" value="web table is added and developed." />
+    <MESSAGE value="utility package is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="utility package is added." />
   </component>
 </project>
