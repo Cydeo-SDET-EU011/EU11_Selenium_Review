@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="utility package is added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/ActionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/test.txt" afterDir="false" />
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="actions is added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week4/UploadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/UploadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/ActionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/ActionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,25 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ActionsTest.hoverTest">
+  <component name="RunManager" selected="TestNG.ActionsTest.doubleClickTest">
+    <configuration name="ActionsTest.doubleClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.ActionsTest" />
+      <option name="METHOD_NAME" value="doubleClickTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ActionsTest.hoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
@@ -127,30 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowsHandle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.WindowsHandle" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionsTest.doubleClickTest" />
         <item itemvalue="TestNG.ActionsTest.hoverTest" />
         <item itemvalue="TestNG.UploadTest.uploadTest" />
         <item itemvalue="TestNG.Alerts" />
         <item itemvalue="TestNG.Tables" />
-        <item itemvalue="TestNG.WindowsHandle" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +163,7 @@
       <workItem from="1688919100983" duration="1942000" />
       <workItem from="1690110465689" duration="16273000" />
       <workItem from="1690694687363" duration="498000" />
-      <workItem from="1690713406587" duration="5149000" />
+      <workItem from="1690713406587" duration="5864000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -245,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690719885040</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="actions is added">
+      <created>1690720923755</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690720923755</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +277,7 @@
     <MESSAGE value="web table is added." />
     <MESSAGE value="web table is added and developed." />
     <MESSAGE value="utility package is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="utility package is added." />
+    <MESSAGE value="actions is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="actions is added" />
   </component>
 </project>
