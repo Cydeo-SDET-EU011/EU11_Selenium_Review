@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="js executer is added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/pages/SwagPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/steps/LoginPageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/steps/SwagPageSteps.java" afterDir="false" />
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="pom is added.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/week4/pages/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/pages/SwagPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/pages/SwagPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/steps/SwagPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/steps/SwagPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,43 +55,7 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SwagPageSteps.checkPrice">
-    <configuration name="ActionsTest.keyboardActions" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.ActionsTest" />
-      <option name="METHOD_NAME" value="keyboardActions" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSExecuterTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.JSExecuterTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SwagPageSteps">
     <configuration name="JSExecuterTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
@@ -130,6 +92,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwagPageSteps" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4.steps" />
+      <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagPageSteps.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4.steps" />
+      <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
+      <option name="METHOD_NAME" value="addToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwagPageSteps.checkPrice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
@@ -150,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SwagPageSteps" />
+        <item itemvalue="TestNG.SwagPageSteps.addToCart" />
         <item itemvalue="TestNG.SwagPageSteps.checkPrice" />
         <item itemvalue="TestNG.LoginPageSteps.loginTest" />
         <item itemvalue="TestNG.JSExecuterTest.test2" />
-        <item itemvalue="TestNG.JSExecuterTest.test1" />
-        <item itemvalue="TestNG.ActionsTest.keyboardActions" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +166,7 @@
       <workItem from="1688919100983" duration="1942000" />
       <workItem from="1690110465689" duration="16273000" />
       <workItem from="1690694687363" duration="498000" />
-      <workItem from="1690713406587" duration="12106000" />
+      <workItem from="1690713406587" duration="14280000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -277,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690724605750</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="pom is added.">
+      <created>1690728487820</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690728487820</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +310,7 @@
     <MESSAGE value="utility package is added." />
     <MESSAGE value="actions is added" />
     <MESSAGE value="js executer is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="js executer is added" />
+    <MESSAGE value="pom is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="pom is added." />
   </component>
 </project>
