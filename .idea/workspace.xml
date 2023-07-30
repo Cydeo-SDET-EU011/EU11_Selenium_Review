@@ -53,7 +53,7 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ActionsTest.doubleClickTest">
+  <component name="RunManager" selected="TestNG.ActionsTest.keyboardActions">
     <configuration name="ActionsTest.doubleClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
@@ -65,6 +65,24 @@
       <option name="PACKAGE_NAME" value="week4" />
       <option name="MAIN_CLASS_NAME" value="week4.ActionsTest" />
       <option name="METHOD_NAME" value="doubleClickTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionsTest.dragDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.ActionsTest" />
+      <option name="METHOD_NAME" value="dragDropTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,34 +108,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Alerts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ActionsTest.keyboardActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3.*" />
+          <option name="PATTERN" value="week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.Alerts" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tables" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week3" />
-      <option name="MAIN_CLASS_NAME" value="week3.Tables" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="week4" />
+      <option name="MAIN_CLASS_NAME" value="week4.ActionsTest" />
+      <option name="METHOD_NAME" value="keyboardActions" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionsTest.keyboardActions" />
+        <item itemvalue="TestNG.ActionsTest.dragDropTest" />
         <item itemvalue="TestNG.ActionsTest.doubleClickTest" />
         <item itemvalue="TestNG.ActionsTest.hoverTest" />
         <item itemvalue="TestNG.UploadTest.uploadTest" />
-        <item itemvalue="TestNG.Alerts" />
-        <item itemvalue="TestNG.Tables" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +165,7 @@
       <workItem from="1688919100983" duration="1942000" />
       <workItem from="1690110465689" duration="16273000" />
       <workItem from="1690694687363" duration="498000" />
-      <workItem from="1690713406587" duration="5864000" />
+      <workItem from="1690713406587" duration="7695000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -250,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690720923755</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="actions is added">
+      <created>1690721583403</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690721583403</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
