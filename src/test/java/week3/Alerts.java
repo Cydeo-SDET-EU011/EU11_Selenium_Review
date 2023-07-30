@@ -13,7 +13,7 @@ public class Alerts {
     WebDriver driver;
 
     @BeforeMethod
-    public void setup(){
+    public void setup() {
         // 1. Open Chrome browser
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -35,7 +35,9 @@ public class Alerts {
         // assertion
         String actualMsg = driver.findElement(By.id("result")).getText();
         String expectedMsg = "You successfully clicked an alert";
-        Assert.assertEquals(actualMsg,expectedMsg);
+        Assert.assertEquals(actualMsg, expectedMsg);
+        driver.close();
+
     }
 
     @Test
@@ -48,7 +50,9 @@ public class Alerts {
 
         String actualMsg = driver.findElement(By.id("result")).getText();
         String expectedMsg = "You clicked: Cancel";
-        Assert.assertEquals(actualMsg,expectedMsg);
+        Assert.assertEquals(actualMsg, expectedMsg);
+        driver.close();
+        driver.quit();
     }
 
     @Test
@@ -63,6 +67,8 @@ public class Alerts {
 
         String actualMsg = driver.findElement(By.id("result")).getText();
         String expectedMsg = "You entered: " + msg;
-        Assert.assertEquals(actualMsg,expectedMsg);
+        Assert.assertEquals(actualMsg, expectedMsg);
+        driver.close();
     }
+
 }
