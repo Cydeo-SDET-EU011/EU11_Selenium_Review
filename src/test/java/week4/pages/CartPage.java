@@ -10,6 +10,6 @@ public class CartPage {
         PageFactory.initElements(Driver.get(), this);
     }
 
-    @FindBy(xpath = "//div[@class='inventory_item_name']")
+    @FindBy(xpath = "//a[@class='shopping_cart_link']")
     public WebElement cartItem;
 }

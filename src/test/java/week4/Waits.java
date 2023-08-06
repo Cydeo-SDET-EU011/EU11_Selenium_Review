@@ -6,6 +6,7 @@ import org.testng.*;
 import org.testng.annotations.*;
 import utilities.*;
 
+import java.time.*;
 import java.util.concurrent.*;
 
 public class Waits {
@@ -36,7 +37,7 @@ public class Waits {
     @Test
     public void test3(){
         driver.get("https://practice.cydeo.com/dynamic_loading/3");
-        WebDriverWait wait = new WebDriverWait(driver,20);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//button[@type='submit']"))));
         Assert.assertTrue(driver.findElement(By.xpath("//button[@type='submit']")).isDisplayed());
     }
@@ -46,8 +47,8 @@ public class Waits {
     public void test4(){
         driver.get("https://practice.cydeo.com/dynamic_loading/3");
         WebDriverWait wait = (WebDriverWait) new FluentWait<WebDriver>(driver)
-                .withTimeout(10,TimeUnit.SECONDS)
-                .pollingEvery(1,TimeUnit.SECONDS)
+                .withTimeout(Duration.ofSeconds(10))
+                .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class)
                 .ignoring(ElementNotInteractableException.class);
 

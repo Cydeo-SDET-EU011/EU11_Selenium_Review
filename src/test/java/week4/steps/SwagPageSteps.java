@@ -1,6 +1,7 @@
 package week4.steps;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.*;
 import org.testng.*;
 import org.testng.annotations.*;
 import utilities.*;
@@ -13,6 +14,7 @@ public class SwagPageSteps {
     LoginPage loginPage = new LoginPage();
 
     CartPage cartPage = new CartPage();
+
 
 
     // check price
@@ -47,11 +49,14 @@ public class SwagPageSteps {
     // check if the product is added to cart
     @Test
     public void cartTest() throws InterruptedException {
+        loginPage.login();
         Thread.sleep(3000);
         swagPage.cartBtn.click();
         Assert.assertTrue(cartPage.cartItem.isDisplayed());
 
     }
+
+
 
 
 }

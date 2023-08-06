@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="demo test is added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/week4/Waits.java" afterDir="false" />
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="wait is added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/Waits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/pages/SwagPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/pages/SwagPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week4/steps/SwagPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/steps/SwagPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-11.0.16.1/lib/src.zip!/java.base/java/time/Duration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/4.11.0/selenium-support-4.11.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,28 +40,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU11_Selenium_Review",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU11_Selenium_Review&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Waits.test3">
+  <component name="RunManager" selected="TestNG.SwagPageSteps.cartTest">
+    <configuration name="LoginPageSteps" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4.steps" />
+      <option name="MAIN_CLASS_NAME" value="week4.steps.LoginPageSteps" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwagPageSteps" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
@@ -71,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagPageSteps.addToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwagPageSteps.cartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +106,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="week4.steps" />
       <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
-      <option name="METHOD_NAME" value="addToCart" />
+      <option name="METHOD_NAME" value="cartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -89,53 +114,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Waits.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwagPageSteps.checkTitle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.*" />
+          <option name="PATTERN" value="week4.steps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Waits" />
+      <option name="PACKAGE_NAME" value="week4.steps" />
+      <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
+      <option name="METHOD_NAME" value="checkTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwagPageSteps.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="week4.steps" />
+      <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Waits.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Waits" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Waits.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4" />
-      <option name="MAIN_CLASS_NAME" value="week4.Waits" />
-      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -145,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Waits.test3" />
-        <item itemvalue="TestNG.Waits.test2" />
-        <item itemvalue="TestNG.Waits.test1" />
+        <item itemvalue="TestNG.SwagPageSteps.cartTest" />
+        <item itemvalue="TestNG.SwagPageSteps.test1" />
+        <item itemvalue="TestNG.SwagPageSteps.checkTitle" />
+        <item itemvalue="TestNG.LoginPageSteps" />
         <item itemvalue="TestNG.SwagPageSteps" />
-        <item itemvalue="TestNG.SwagPageSteps.addToCart" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +171,9 @@
       <workItem from="1688919100983" duration="1942000" />
       <workItem from="1690110465689" duration="16273000" />
       <workItem from="1690694687363" duration="498000" />
-      <workItem from="1690713406587" duration="15439000" />
+      <workItem from="1690713406587" duration="16156000" />
+      <workItem from="1690931233532" duration="59000" />
+      <workItem from="1691318675239" duration="4453000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -286,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690734820120</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="wait is added.">
+      <created>1690736244430</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690736244430</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +333,7 @@
     <MESSAGE value="js executer is added" />
     <MESSAGE value="pom is added." />
     <MESSAGE value="demo test is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="demo test is added." />
+    <MESSAGE value="wait is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="wait is added." />
   </component>
 </project>
