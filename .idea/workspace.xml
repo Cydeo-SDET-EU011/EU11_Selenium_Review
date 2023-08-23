@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="wait is added.">
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="project is updated with correct location">
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week1/EU11 office hour week1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week1/Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week2/Tasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week2/week2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week4/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/Waits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week4/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week4/pages/SwagPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/pages/SwagPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week4/steps/SwagPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week4/steps/SwagPageSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,73 +40,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Zulpikar/IdeaProjects/EU11_Selenium_Review&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Zulpikar/IdeaProjects/EU11_Selenium_Review/src/test/java/officeHour/week2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review\src\test\java\officeHour\week2" />
+      <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review\src\test\java\officeHour\week1" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review" />
       <recent name="C:\Users\Zulpikar\IdeaProjects\EU11_Selenium_Review\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SwagPageSteps.cartTest">
-    <configuration name="LoginPageSteps" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Tasks.tc001">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="officeHour.week2.Demo" />
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.steps.*" />
+          <option name="PATTERN" value="officeHour.week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4.steps" />
-      <option name="MAIN_CLASS_NAME" value="week4.steps.LoginPageSteps" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagPageSteps" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tasks.tc001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.steps.*" />
+          <option name="PATTERN" value="officeHour.week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4.steps" />
-      <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwagPageSteps.cartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week4.steps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week4.steps" />
-      <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
-      <option name="METHOD_NAME" value="cartTest" />
+      <option name="PACKAGE_NAME" value="officeHour.week2" />
+      <option name="MAIN_CLASS_NAME" value="officeHour.week2.Tasks" />
+      <option name="METHOD_NAME" value="tc001" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,17 +96,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagPageSteps.checkTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tasks.tc003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.steps.*" />
+          <option name="PATTERN" value="officeHour.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4.steps" />
-      <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
-      <option name="METHOD_NAME" value="checkTitle" />
+      <option name="PACKAGE_NAME" value="officeHour.week1" />
+      <option name="MAIN_CLASS_NAME" value="officeHour.week1.Tasks" />
+      <option name="METHOD_NAME" value="tc003" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,17 +114,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwagPageSteps.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tasks.tc004" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4.steps.*" />
+          <option name="PATTERN" value="officeHour.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="week4.steps" />
-      <option name="MAIN_CLASS_NAME" value="week4.steps.SwagPageSteps" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="officeHour.week1" />
+      <option name="MAIN_CLASS_NAME" value="officeHour.week1.Tasks" />
+      <option name="METHOD_NAME" value="tc004" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tasks.tc005" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="officeHour.week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="officeHour.week1" />
+      <option name="MAIN_CLASS_NAME" value="officeHour.week1.Tasks" />
+      <option name="METHOD_NAME" value="tc005" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SwagPageSteps.cartTest" />
-        <item itemvalue="TestNG.SwagPageSteps.test1" />
-        <item itemvalue="TestNG.SwagPageSteps.checkTitle" />
-        <item itemvalue="TestNG.LoginPageSteps" />
-        <item itemvalue="TestNG.SwagPageSteps" />
+        <item itemvalue="TestNG.Tasks.tc001" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="TestNG.Tasks.tc005" />
+        <item itemvalue="TestNG.Tasks.tc004" />
+        <item itemvalue="TestNG.Tasks.tc003" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +173,11 @@
       <workItem from="1690694687363" duration="498000" />
       <workItem from="1690713406587" duration="16156000" />
       <workItem from="1690931233532" duration="59000" />
-      <workItem from="1691318675239" duration="4453000" />
+      <workItem from="1691318675239" duration="4836000" />
+      <workItem from="1692196178290" duration="9776000" />
+      <workItem from="1692730330624" duration="156000" />
+      <workItem from="1692799892962" duration="40000" />
+      <workItem from="1692801058906" duration="2426000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -302,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690736244430</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="project is updated with correct location">
+      <option name="closed" value="true" />
+      <created>1691323549732</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691323549732</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +346,7 @@
     <MESSAGE value="pom is added." />
     <MESSAGE value="demo test is added." />
     <MESSAGE value="wait is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="wait is added." />
+    <MESSAGE value="project is updated with correct location" />
+    <option name="LAST_COMMIT_MESSAGE" value="project is updated with correct location" />
   </component>
 </project>

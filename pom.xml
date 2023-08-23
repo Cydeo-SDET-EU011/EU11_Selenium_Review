@@ -24,12 +24,13 @@
         </dependency>
 
 
-        <!--         https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager-->
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.1.1</version>
+            <version>5.5.0</version>
         </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
@@ -39,6 +40,9 @@
             <version>6.10</version>
             <scope>test</scope>
         </dependency>
+
+
+
 
 
         <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->

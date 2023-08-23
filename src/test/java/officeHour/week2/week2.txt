@@ -1,0 +1,65 @@
+Topics:
+
+   ** css and xpath, checkbox - radio button- Dropdown
+
+===========================================
+
+** TC001 As a user I should be able to click checkboxes
+
+ 1-open a chrome browser
+ 2-goto https://practice.cydeo.com/
+ 3-click Checkboxes
+ 4-verify title contains Checkboxes
+ 5-click Checkbox 1
+ 6-verify the Checkbox 1 is checked
+ 7-click Checkbox 2
+ 8-verify the Checkbox 2 is checked
+
+____________________________________________
+
+** TC002 As a user I should be able to select my favorite color and sport
+
+ 1-open a chrome browser
+ 2-goto https://practice.cydeo.com/
+ 3-click Radio Buttons
+ 4-verify title contains Radio buttons
+ 5-select the favorite color as Red
+ 6-verify the Red is selected
+ 7-select the favorite sport as Football
+ 8-verify the Football is selected
+
+____________________________________________
+
+** TC003 As a user I should be able to select in dropdown
+
+1- Setup the "browser driver"
+2- Go to "https://practice.cydeo.com/dropdown"
+3- Choose 22-May-2020 as date
+4- Choose virginia as state
+5- Verify the date and state is correct.
+____________________________________________
+
+
+ ** TC004 As a user I should be able to select in dropdown
+
+1-Launch the browser.
+2-Open "https://demoqa.com/select-menu".
+3-Select the Old Style Select Menu using the element id.
+4-Print all the options of the dropdown.
+5-Select 'Purple' using the index.
+6-After that, select 'Magenta' using visible text.
+7-Select an option using value.
+8-Close the browser
+
+
+____________________________________________
+ ** TC005 As a user I should be able to multi select
+
+1- Saunch the browser.
+2-Open "https://demoqa.com/select-menu".
+3-Select the Standard Multi-Select using the element id.
+4-Verifying that the element is multi-select.
+5-Select 'Opel' using the index and deselect the same using index.
+6-Select 'Saab' using value and deselect the same using value.
+7-Deselect all the options.
+8-Close the browser.
