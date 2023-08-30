@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="test1 is added.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/feature/task1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/runners/CukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/step_definitions/task1Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/week3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f43e45fa-2f7d-43c2-a282-18575b6635f2" name="Changes" comment="office hour is loading...">
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/feature/task2.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/step_definitions/task2Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHour/week3/feature/task1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/feature/task1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHour/week3/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/officeHour/week3/step_definitions/task1Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/officeHour/week3/step_definitions/task1Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,24 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tasks.tc002" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EU11_Selenium_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="officeHour.week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="officeHour.week2" />
-      <option name="MAIN_CLASS_NAME" value="officeHour.week2.Tasks" />
-      <option name="METHOD_NAME" value="tc002" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tasks.tc003" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EU11_Selenium_Review" />
       <extension name="coverage">
@@ -163,13 +145,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="officeHour.week3.step_definitions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EU11_Selenium_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="officeHour.week3.step_definitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="officeHour.week3.step_definitions" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="TestNG.officeHour.week3.step_definitions" />
         <item itemvalue="TestNG.Tasks.tc005" />
         <item itemvalue="TestNG.Tasks.tc004" />
         <item itemvalue="TestNG.Tasks.tc003" />
-        <item itemvalue="TestNG.Tasks.tc002" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +193,7 @@
       <workItem from="1692819865127" duration="308000" />
       <workItem from="1692882355545" duration="628000" />
       <workItem from="1692904725002" duration="15000" />
-      <workItem from="1693358637820" duration="5627000" />
+      <workItem from="1693358637820" duration="9393000" />
     </task>
     <task id="LOCAL-00001" summary="review project is created">
       <created>1688920195515</created>
@@ -346,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692813264318</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="office hour is loading...">
+      <option name="closed" value="true" />
+      <created>1693411221748</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1693411221748</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,6 +386,7 @@
     <MESSAGE value="wait is added." />
     <MESSAGE value="project is updated with correct location" />
     <MESSAGE value="test1 is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="test1 is added." />
+    <MESSAGE value="office hour is loading..." />
+    <option name="LAST_COMMIT_MESSAGE" value="office hour is loading..." />
   </component>
 </project>

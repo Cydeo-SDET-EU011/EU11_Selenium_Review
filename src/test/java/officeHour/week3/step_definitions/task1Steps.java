@@ -33,7 +33,7 @@ public class task1Steps {
                 break;
 
             case "second":
-                expectedtitle = "W3schools Online Web Tutorials";
+                expectedtitle = "W3Schools Online Web Tutorials";
                 break;
 
 
@@ -45,6 +45,7 @@ public class task1Steps {
 
     @When("user click webpage")
     public void user_click_webpage() {
+        driver.switchTo().frame(driver.findElement(By.id("iframeResult")));
         WebElement link = driver.findElement(By.linkText("Visit W3Schools.com!"));
         link.click();
     }
@@ -68,32 +69,46 @@ public class task1Steps {
 
     }
 
-    @When("switch to second window")
-    public void switch_to_second_window() {
-        for (String handle : allHandles) {
-            driver.switchTo().window(handle);
-            if (driver.getTitle().equals("W3schools Online Web Tutorials")){
-                break;
-            }
 
+    @When("switch to {string} window")
+    public void switch_to_window(String handleNumber) {
+        switch (handleNumber){
+            case "first":
+                for (String handle : allHandles) {
+                    driver.switchTo().window(handle);
+                    if (driver.getTitle().equals("W3Schools Tryit Editor")) {
+                        break;
+                    }
+
+                }
+                break;
+
+            case "second":
+                for (String handle : allHandles) {
+                    driver.switchTo().window(handle);
+                    if (driver.getTitle().equals("W3schools Online Web Tutorials")) {
+                        break;
+                    }
+
+                }
+                break;
         }
+
+
     }
 
     @Then("check the upper left side logo in the second window")
     public void check_the_upper_left_side_logo_in_the_second_window() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        WebElement logo = driver.findElement(By.xpath("//i[@class='fa fa-logo ws-hover-text-green']"));
+        Assert.assertTrue(logo.isDisplayed());
     }
 
-    @When("go back \\(Switch) to the first window")
-    public void go_back_switch_to_the_first_window() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
 
     @Then("validate run button text contains {string}")
     public void validate_run_button_text_contains(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        WebElement button = driver.findElement(By.id("runbtn"));
+        String actualText = button.getText();
+        System.out.println(actualText);
+        Assert.assertTrue(actualText.contains(string));
     }
 }
